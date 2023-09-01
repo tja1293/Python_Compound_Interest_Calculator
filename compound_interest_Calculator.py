@@ -31,18 +31,6 @@ def print_compounding_output(principal, rate, years, compound_result):
     print('£{0:.2f} invested at {1:.1f}% for {2:} years compounded 4 times a year is: £{3:,.2f}'.format(principal, rate * 100, years, compound_result))
 
 
-def get_target_input():
-    pass
-
-
-def calculate_years_to_target():
-    pass
-
-
-def print_target_output():
-    pass
-
-
 def main():
     print_intro()
     principal, rate, years = get_input()
